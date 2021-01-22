@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre&family=Poppins:wght@600;700&family=Quicksand:wght@600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url('./images/exclamation-point.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 0 5%;
+  box-sizing: border-box;
+  position: relative;
+  font-size: 20px;
+  font-family: 'Averia Sans Libre', sans-serif;
+  color: #f8f8ff;
+}
+
+.container .forms {
+  position: absolute;
+  top: 42%;
+  left: 3%;
+  font-size: 50px;
+}
+
+.container .forms #app_form #number{
+   color: #000;
+   font-family: 'Averia Sans Libre',sans-serif;
+   font-size: 30px;
+   text-align: center;
+   border: 4px dashed #79202d;
+   border-radius: 20px;
+   margin: 20px 0;
+   outline: none;
+}
+
+.container .forms #app_form button {
+  display: block;
+  width: 40%;
+  height: 30px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-family: 'Averia Sans Libre',sans-serif;
+  border: 2px solid #fff;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  text-transform: lowercase;
+  background-color: #79202d;
+}
+
+.container .forms #app_form button:active {
+  transform: translateY(3px);
+}
+
+/* Result */
+
+#result {
+  position: absolute;
+  top: 52%;
+  left: 65%;
+  right: 3%;
+  font-size: 45px;
+}
+
+/* Footer */
+
+.footer {
+  color: #fff;
+  font-family: 'Averia Sans Libre', sans-serif;
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+  background-color:#aab0b8;
+}
